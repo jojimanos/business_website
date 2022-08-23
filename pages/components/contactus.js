@@ -101,9 +101,9 @@ export default function ContactUs() {
 
           <label
             htmlFor="fullname"
-            className="text-gray-500 font-light mt-8 dark:text-gray-50"
+            className="text-gray-900 font-light mt-8"
           >
-            Ονοματεπώνυμο<span className="text-red-500 dark:text-gray-50">*</span>
+            Ονοματεπώνυμο<span className="text-red-500">*</span>
           </label>
           <input
             type="text"
@@ -112,7 +112,7 @@ export default function ContactUs() {
               setFullname(e.target.value);
             }}
             name="fullname"
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-900 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-900 font-light text-gray-900"
           />
           {errors?.fullname && (
             <p className="text-red-500">Απαιτείται το Ονοματεπώνυμο!</p>
@@ -120,7 +120,7 @@ export default function ContactUs() {
 
           <label
             htmlFor="email"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-gray-900 font-light mt-4"
           >
             E-mail<span className="text-red-500">*</span>
           </label>
@@ -131,7 +131,7 @@ export default function ContactUs() {
             onChange={(e) => {
               setEmail(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-900 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-900 font-light text-gray-900"
           />
           {errors?.email && (
             <p className="text-red-500">Απαιτείται το email!</p>
@@ -139,7 +139,7 @@ export default function ContactUs() {
 
           <label
             htmlFor="subject"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-gray-900 font-light mt-4"
           >
             Τηλέφωνο<span className="text-red-500">*</span>
           </label>
@@ -150,14 +150,14 @@ export default function ContactUs() {
             onChange={(e) => {
               setPhone(e.target.value);
             }}
-            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-900 font-light text-gray-500"
+            className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-900 font-light text-gray-900"
           />
-          {errors?.subject && (
+          {errors?.phone && (
             <p className="text-red-500">Απαιτείται το Τηλέφωνο!</p>
           )}
           <label
             htmlFor="message"
-            className="text-gray-500 font-light mt-4 dark:text-gray-50"
+            className="text-gray-900 font-light mt-4"
           >
             Μήνυμα<span className="text-red-500">*</span>
           </label>
