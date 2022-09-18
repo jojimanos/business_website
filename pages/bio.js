@@ -11,7 +11,7 @@ class Bio extends Component {
             <div className="grid sm:grid-cols-2 gap-2 p-10">
             <img src="/photo.jpg" className="rounded-md"/>
             <div>
-<p className='bg-red-500/80 px-2 rounded-md text-justify'>
+<p className='px-2 rounded-md text-justify'>
 Είμαι απόφοιτη του Τμήματος Ψυχολογίας του Παντείου Πανεπιστημίου Κοινωνικών και 
 Πολιτικών Επιστημών. Διαθέτω άδεια ασκήσεως επαγγέλματος (Αρ. 9886/ 08-07-2020).
 <br/>

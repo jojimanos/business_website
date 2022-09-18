@@ -1,6 +1,4 @@
-import { popper } from "@popperjs/core";
 import React, {Component} from "react";
-import {createPopper} from '@popperjs/core'
 import Link from "next/link";
 import styles from '../../styles/Home.module.css'
 
