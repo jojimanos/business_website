@@ -7,7 +7,7 @@ export default function Rendezvous() {
 
         return (
             <div className={styles.container}>
-                <div className="bg-gradient-to-b from-pink-100 to-red-400 p-2">
+                <div className="bg-gradient-to-b from-pink-100 to-red-300 p-2">
                     <div className="grid sm:grid-cols-3">
                         <div></div>
                         <div><div className={styles.fadein}><p className="text-2xl text-center">Το πρώτο ραντεβού παρέχεται δωρεάν.</p></div>

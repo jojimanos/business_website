@@ -7,11 +7,11 @@ class Bio extends Component {
     render() { 
         return (
             <div className={styles.container}>
-            <div className="text-center sm:p-10 bg-gradient-to-b from-pink-100 to-red-400"><h1 className="text-3xl">Βιογραφικό</h1>
+            <div className="text-center sm:p-10 bg-gradient-to-b from-pink-100 to-red-300"><h1 className="text-3xl">Βιογραφικό</h1>
             <div className="grid sm:grid-cols-2 gap-2 p-10">
             <img src="/photo.jpg" className="rounded-md"/>
             <div>
-<p className='px-2 rounded-md text-justify'>
+<p className='px-2 rounded-md text-justify border-double border-2 border-rose-500'>
 Είμαι απόφοιτη του Τμήματος Ψυχολογίας του Παντείου Πανεπιστημίου Κοινωνικών και 
 Πολιτικών Επιστημών. Διαθέτω άδεια ασκήσεως επαγγέλματος (Αρ. 9886/ 08-07-2020).
 <br/>

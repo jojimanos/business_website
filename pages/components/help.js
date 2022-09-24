@@ -8,7 +8,7 @@ class Help extends Component {
     state = {  } 
     render() { 
         return (
-          <div className='text-center bg-gradient-to-b from-white to-red-400 py-3 px-3'>
+          <div className='text-center bg-gradient-to-b from-white to-red-300 py-3 px-3'>
           <h1 className="text-2xl pt-2 pb-6">Χρειάζεσαι βοήθεια;</h1>
           <div className='sm:grid grid-cols-2 grid-rows-3 gap-4'>
           <Link href='./services'>

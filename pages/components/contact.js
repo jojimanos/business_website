@@ -9,7 +9,7 @@ class Contact_footer extends Component {
     render() { 
         return (
             <div className={styles.container}>
-            <div className="h-40 grid sm:grid-cols-2 bg-gradient-to-b from-red-400 to-pink-100">
+            <div className="h-40 grid sm:grid-cols-2 bg-gradient-to-b from-red-300 to-pink-100">
                 <div className="p-0 text-center">
                 <div className="w-full relative">
                 <h1 className="pt-10 text-2xl">Στοιχεία Επικοινωνίας</h1>

@@ -7,7 +7,7 @@ class Services extends Component {
     render() { 
         return (
             <div className={styles.container}>
-            <div className="p-10 text-center bg-gradient-to-b from-pink-100 to-red-400">
+            <div className="p-10 text-center bg-gradient-to-b from-pink-100 to-red-300">
                 <h1 className="p-5 text-3xl font-bold">Υπηρεσίες</h1>
                 <Image src="/line.png" width={70} height={10}/>
                 <div className={styles.fadein}><p className="text-xl font-bold text-red-900">Η κάθε συνεδρία διαρκεί 50′ λεπτά.<br/>

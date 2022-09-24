@@ -8,7 +8,7 @@ class Short_intro extends Component {
                 <div></div>
                 <img src="/photo.jpg" className="rounded-md sm:col-span-3" />
                 <div className="sm:col-span-3">
-                    <p className='text-justify px-2 py-2 rounded-md'>Ο τρόπος εργασίας
+                    <p className='text-justify px-2 py-2 rounded-md border-double border-2 border-rose-500'>Ο τρόπος εργασίας
                         μου βασίζεται στην αλληλεπίδραση σκέψης-συναισθήματος-συμπεριφοράς.
                         Σύμφωνα με αυτό το μοντέλο, ο τρόπος που επεξεργαζόμαστε ένα γεγονός
                         ή μια κατάσταση καθοδηγεί το συναίσθημα μας και κατ’επέκταση την
