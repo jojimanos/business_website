@@ -12,8 +12,8 @@ class Navbar extends React.Component {
           <div className="sm:grid grid-cols-7">
             <p className="col-span-2"></p>
           <a href="/" className="col-span-3">
-          <p className="text:lg sm:text-3xl hover:text-red-400">Έφη Αμπατζόγλου</p>
-          <p className="text:xs sm:text-xl">Ψυχολόγος</p>
+          <p className="text-4xl sm:text-5xl hover:text-red-400">Έφη Αμπατζόγλου</p>
+          <p className="text-2xl sm:text-2xl">Ψυχολόγος</p>
           </a>
             <p className="col-span-2"></p>
           </div>    

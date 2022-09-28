@@ -7,7 +7,7 @@ function Pros() {
                 <div className="p-10 text-center bg-gradient-to-b from-pink-100 to-red-300">
                     <h1 className="p-5 text-4xl">Τρόπος Προσέγγισης</h1>
                     <Image src="/line.png" width={70} height={10} />
-                    <p className="sm:p-5 text-justify border-double border-2 border-rose-500 rounded">
+                    <p className="sm:p-5 text-justify border-double border-2 border-rose-500 rounded p-3">
                         <h2 className="text-2xl">Γνωσιακή Συμπεριφορική Ψυχοθεραπεία (CBT)</h2>
                         <br />
                         Η Γνωσιακή Συμπεριφορική Ψυχοθεραπεία αναπτύχθηκε το 1960 από τον Aaron T.
