@@ -17,7 +17,7 @@ class Navbar extends React.Component {
           </a>
             <p className="col-span-2"></p>
           </div>    
-          <div className="grid sm:grid-cols-3 grid-rows-2 gap-2 sm:px-10">
+          <div className="grid sm:grid-cols-3 grid-rows-2 gap-x-2 gap-y-2 sm:px-10">
           <Link href="/" >
               <button className="bg-blue-300/80 rounded-full w-22 h-7 sm:transition sm:ease-in-out delay-150 sm-hover:-translate-y-1 sm:hover:scale-110 hover:bg-indigo-500 duration-300  hover:text-orange-400">
                 Αρχική

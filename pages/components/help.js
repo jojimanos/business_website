@@ -9,8 +9,8 @@ class Help extends Component {
     render() { 
         return (
           <div className='text-center bg-gradient-to-b from-white to-red-300 py-3 px-3'>
-          <h1 className="text-2xl pt-2 pb-6">Χρειάζεσαι βοήθεια;</h1>
-          <div className='sm:grid grid-cols-2 grid-rows-3 gap-4'>
+          <h1 className="text-3xl pt-2 pb-6 font-bold">Χρειάζεσαι βοήθεια;</h1>
+          <div className='sm:grid grid-cols-2 grid-rows-3 gap-4 text-2xl font-bold'>
           <Link href='./services'>
           <div className="grid grid-rows-2 py-2">
           <button className='hover:bg-rose-400 rounded-full pt-1'><Image src="/worried.png" height={30} width={30}/></button>
