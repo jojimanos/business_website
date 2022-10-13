@@ -1,12 +1,7 @@
-import React, {Component} from "react";
 import Image from "next/image";
-import styles from '../../styles/Home.module.css'
 import Link from "next/link";
-import Services from "../services";
 
-class Help extends Component {
-    state = {  } 
-    render() { 
+function Help() { 
         return (
           <div className='text-center bg-gradient-to-b from-white to-red-300 py-3 px-3'>
           <h1 className="text-3xl pt-2 pb-6 font-bold">Χρειάζεσαι βοήθεια;</h1>
@@ -51,6 +46,5 @@ class Help extends Component {
           </div>
         );
     }
-}
  
 export default Help;

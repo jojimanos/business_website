@@ -1,10 +1,8 @@
-import React, {Component} from "react";
 import Image from "next/image";
 import styles from '../styles/Home.module.css'
 
-class Contact extends Component {
-    state = {  } 
-    render() { 
+function Contact() {
+
         return (
             <div className={styles.container}>
                 <div className="p-10 text-center bg-gradient-to-b from-pink-100 to-red-300">
@@ -26,6 +24,5 @@ class Contact extends Component {
             
         );
     }
-}
  
 export default Contact;

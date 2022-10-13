@@ -2,9 +2,7 @@ import React, {Component} from "react";
 import styles from '../styles/Home.module.css'
 import Image from "next/image";
 
-class Services extends Component {
-    state = {  } 
-    render() { 
+function Services() {
         return (
             <div className={styles.container}>
             <div className="p-10 text-center bg-gradient-to-b from-pink-100 to-red-300">
@@ -26,6 +24,5 @@ class Services extends Component {
             </div>
         );
     }
-}
  
 export default Services;

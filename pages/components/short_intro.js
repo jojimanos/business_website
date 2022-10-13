@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 
-class Short_intro extends Component {
-    state = {}
-    render() {
+function Short_intro() {
         return (
             <div className="grid grid-cols-1 gap-2 p-0 sm:grid-cols-8 sm:p-10">
                 <div></div>
@@ -22,6 +20,5 @@ class Short_intro extends Component {
 
         );
     }
-}
 
 export default Short_intro;

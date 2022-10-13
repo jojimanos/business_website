@@ -1,9 +1,7 @@
 import React, {Component} from "react";
 import styles from '../../styles/Home.module.css'
 
-class Banner extends Component {
-    state = {  } 
-    render() { 
+function Banner() {
         return (
           <div className="bg-pink-100">
             <div className="h-64 w-full relative">
@@ -19,6 +17,5 @@ class Banner extends Component {
           </div>
                 );
     }
-}
  
 export default Banner;

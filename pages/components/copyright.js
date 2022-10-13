@@ -1,9 +1,6 @@
-import React, {Component} from "react";
 import styles from '../../styles/Home.module.css'
 
-class Copyright extends Component {
-    state = {  } 
-    render() { 
+function Copyright() {
         return (
             <div className={styles.container}>
                 <div className="py-4 sm:grid grid-cols-2 text-center text-sm bg-gradient-to-b from-pink-100 to-yellow-50">
@@ -13,6 +10,5 @@ class Copyright extends Component {
             </div>
         );
     }
-}
  
 export default Copyright;
