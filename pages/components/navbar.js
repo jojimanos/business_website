@@ -3,7 +3,6 @@ import styles from '../../styles/Home.module.css'
 import MediaQuery from 'react-responsive'
 import { useState, useRef } from "react"
 import Image from "next/image";
-import { Links } from "./links";
 
 function Navbar() {
 
@@ -24,7 +23,7 @@ function Navbar() {
         </div>
         <MediaQuery maxWidth={428}>
           <div>
-            <button onClick={onClick}><Image src="/index.png" height={30} width={30}/></button>
+            <button onClick={onClick}><Image src="/index.png" height={30} width={30} /></button>
             <nav ref={dropdownref} className={`menu ${isActive ? 'active' : 'inactive'}`}>
               {isActive && (
                 <div className="grid grid-cols-1 gap-y-2 px-5">
