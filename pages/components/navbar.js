@@ -16,17 +16,17 @@ function Navbar() {
         <div className="sm:grid grid-cols-7">
           <p className="col-span-2"></p>
           <a href="/" className="col-span-3">
-            <p className="text-4xl sm:text-5xl hover:text-red-400">Έφη Αμπατζόγλου</p>
+            <p className="text-3xl sm:text-5xl hover:text-red-400">Έφη Αμπατζόγλου</p>
             <p className="text-2xl sm:text-2xl">Ψυχολόγος</p>
           </a>
           <p className="col-span-2"></p>
         </div>
         <MediaQuery maxWidth={428}>
-          <div>
+          <div className="grid items-baseline justify-center place-items-center">
             <button onClick={onClick}><Image src="/index.png" height={30} width={30} /></button>
-            <nav ref={dropdownref} className={`menu ${isActive ? 'active' : 'inactive'}`}>
+            <nav ref={dropdownref}>
               {isActive && (
-                <div className="grid grid-cols-1 gap-y-2 px-5">
+                <div className="grid gap-y-2">
                   <Link href="/" >
                     <button className="bg-blue-300/80 rounded-full w-22 h-7 sm:transition sm:ease-in-out delay-150 sm-hover:-translate-y-1 sm:hover:scale-110 hover:bg-indigo-500 duration-300  hover:text-orange-400">
                       Αρχική
