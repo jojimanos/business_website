@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <div className={styles.container}>
-      <div className="grid grid-cols-2 bg-gradient-to-b from-blue-800 to-pink-100 text-white py-3 px-4 sm:px-8 text-center">
+      <div className="grid grid-cols-2 gap-2 bg-gradient-to-b from-blue-800 to-pink-100 text-white py-3 px-4 sm:px-8 text-center">
         <div className="sm:grid grid-cols-7">
           <p className="col-span-2"></p>
           <a href="/" className="col-span-3">
