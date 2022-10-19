@@ -8,8 +8,8 @@ function Contact() {
                 <div className="p-10 text-center bg-gradient-to-b from-pink-100 to-red-300">
                 <div className="w-full relative">
                 <h1 className="p-5 text-4xl">Επικοινωνία</h1>
-                <p className="pt-5">τηλέφωνο: 6981688713</p>
-                <p className="p-2">E-mail: efiampatz97@gmail.com</p>
+                <p className="pt-5 font-bold">Τηλέφωνο: 6981688713</p>
+                <p className="p-2 font-bold">E-mail: efiampatz97@gmail.com</p>
                 <div className="flex-box items-center py-2">
                     <button className="px-2">
                     <Image src="/facebook-circular-logo.png" width={30} height={30}/>

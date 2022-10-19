@@ -10,8 +10,8 @@ function Contact_footer() {
                 <div className="p-0 text-center">
                     <div className="w-full relative">
                         <h1 className="pt-10 text-2xl">Στοιχεία Επικοινωνίας</h1>
-                        <p className="pt-2 text-xs">τηλέφωνο: 6981688713</p>
-                        <p className="p-1 text-xs">E-mail: efiampatz97@gmail.com</p>
+                        <p className="pt-2 text-xs font-bold">Τηλέφωνο: 6981688713</p>
+                        <p className="p-1 text-xs font-bold">E-mail: efiampatz97@gmail.com</p>
                         <div className="py-2">
                             <button className="px-2">
                                 <Image src="/facebook-circular-logo.png" width={20} height={20} />
