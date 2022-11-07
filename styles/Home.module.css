@@ -179,3 +179,8 @@
   }
   }
 
+.hyphenText {
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styles from '../../styles/Home.module.css'
 
 function Short_intro() {
         return (
@@ -6,15 +7,17 @@ function Short_intro() {
                 <div></div>
                 <img src="/photo.jpg" className="rounded-md sm:col-span-3" />
                 <div className="sm:col-span-3">
+                    <div className={styles.hyphenText}>
                     <p className='text-justify p-3 rounded-md border-double border-2 border-rose-500'>
                         Βασικός άξονας του τρόπου θεραπείας μου είναι το "τρίγωνο" 
-                        σκέψη - συμπεριφορά - συναίσθημα. Τα στοιχεία αυτά αλληλεπιδρούν 
-                        μεταξύ τους επηρεάζοντας το ένα το άλλο. Έτσι, η αλλαγή μπορεί 
+                        σκέψη - συμ&shy;περιφορά - συναίσθημα. Τα στοιχεία αυτά αλληλεπιδρούν 
+                        μεταξύ τους ε&shy;πηρεάζοντας το ένα το άλλο. Έτσι, η αλλαγή μπορεί 
                         να επέλθει μέσω της τροποποίησης είτε των πεποιθήσεων είτε της 
                         συμπεριφοράς. Κι όλα αυτά μέσα σε ένα πλαίσιο συνεργατικότητας, 
-                        αμοιβαίας εμπιστοσύνης και αλληλοσεβασμού μεταξύ θεραπευτή και 
-                        θεραπευόμενου.
+                        αμοιβαίας εμπιστοσύνης και αλληλο&shy;σεβασμού μεταξύ θεραπευτή και 
+                        θε&shy;ραπευόμενου.
                     </p>
+                    </div>
                 </div>
             </div>
 
