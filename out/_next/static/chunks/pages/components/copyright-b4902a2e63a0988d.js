@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[980],{7425:function(a,b,c){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/copyright",function(){return c(476)}])}},function(a){a.O(0,[774,888,179],function(){var b;return a(a.s=7425)}),_N_E=a.O()}])
