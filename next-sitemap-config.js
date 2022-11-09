@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-undef 
 module.exports = {
-    siteURL: "https://www.psychologos-ampatzoglou.gr",
-    generateRobotsText: true, // (optional)
+    siteUrl: "https://psychologos-ampatzoglou.gr",
+    generateRobotsTxt: true, // (optional)
 }
