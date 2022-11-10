@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://psychologos-ampatzoglou.gr
+
+# Sitemaps
+Sitemap: https://psychologos-ampatzoglou.gr/sitemap.xml
