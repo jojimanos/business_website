@@ -12,7 +12,7 @@ export default function Home() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
       <meta name="googlebot" content="index, follow" />
-      <meta name="keywords" content="Έφη Αμπατζόγλου, Ψυχολόγος, CBT, Ψυχοθεραπεία, psycologos, ampatzoglou," />
+      <meta name="keywords" content="Έφη Αμπατζόγλου, Ψυχολόγος, CBT, Ψυχοθεραπεία, psychologos, ampatzoglou," />
         <title>Ψυχολόγος-Έφη Αμπατζόγλου</title>
         <meta name="description" content="Παροχή είδικών Ψυχοθεραπευτικών Υπηρεσιών από την ψυχολόγο Αμπατζόγλου Έφη σε χαμηλές τιμές." />
         <link rel="icon" href="/favicon.ico" />
