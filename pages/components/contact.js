@@ -13,9 +13,6 @@ function Contact_footer() {
                         <p className="pt-2 text-xs font-bold">Τηλέφωνο: 6981688713</p>
                         <p className="p-1 text-xs font-bold">E-mail: efiampatz97@gmail.com</p>
                         <div className="py-2">
-                            <button className="px-2">
-                                <Image src="/facebook-circular-logo.png" width={20} height={20} />
-                            </button>
                             <a>
                                 <button onClick={openLinkedIn} className="px-2">
                                     <Image src="/linkedin.png" width={20} height={20} />
